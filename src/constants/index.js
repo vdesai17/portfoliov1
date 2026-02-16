@@ -46,7 +46,7 @@ export const myProjects = [
             'Generated 30,000 realistic synthetic transactions, engineered lexicon + TF-IDF word/char n-gram features with amount signals, benchmarked Linear SVM, Gradient Boosting, and MLP, and validated generalization on an out-of-sample merchant dataset.',
         href: '/assets/proj2.pdf',
         texture: '/textures/project/project2.mp4',
-        logo: '/assets/bank-muscat.svg',
+        logo: '/assets/bank-muscat.png',
         logoStyle: {
             backgroundColor: 'white',
             border: '0.2px solid #17293E',
@@ -95,7 +95,7 @@ export const workExperiences = [
         pos: 'Business Intelligence Intern',
         duration: 'Summer 2025',
         title: "Built an end-to-end NLP and machine learning pipeline to classify retail banking transactions, benchmarked SVM, MLP, and Gradient Boosting models, and presented actionable customer segmentation insights to senior retail leadership.",
-        icon: '/assets/bank-muscat.svg',
+        icon: '/assets/bankmuscat1.png',
         animation: 'victory',
     },
     {
@@ -113,7 +113,7 @@ export const workExperiences = [
         pos: 'Automotive Services Intern',
         duration: 'Summer 2023',
         title: "Supported high-volume automotive service operations, assisted in diagnostics and maintenance workflows, and gained exposure to enterprise systems used for repair tracking and performance metrics.",
-        icon: '/assets/ote.png',
+        icon: '/assets/ote1.png',
         animation: 'salute',
     },
 ];
