@@ -85,7 +85,7 @@ export const workExperiences = [
         name: 'Toronto Student Investment Council',
         pos: 'Junior Analyst',
         duration: '2025 - Present',
-        title: "Conduct equity research within the TMT sector, develop valuation theses, and pitched DoubleVerify at Buy-Side Night with an AI-driven ad verification investment case.",
+        title: "Conduct equity research within the TMT sector, develop valuation theses, and pitched DoubleVerify for Buy-Side Night with an AI-driven ad verification investment case.",
         icon: '/assets/tsic.svg',
         animation: 'clapping',
     },
