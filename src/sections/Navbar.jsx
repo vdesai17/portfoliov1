@@ -54,7 +54,7 @@ const Navbar = () => {
         <header className="fixed top-0 left-0 right-0 z-50 bg-black/90">
             <div className="max-w-7xl mx-auto">
                 <div className="flex justify-between items-center py-5 mx-auto c-space">
-                    {/* brand */}
+
                     <a
                         href="/#home"
                         className="text-neutral-400 font-bold text-xl hover:text-white transition-colors"
@@ -84,7 +84,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            {/* mobile */}
+
             <div className={`nav-sidebar ${isOpen ? 'max-h-screen' : 'max-h-0'}`}>
                 <nav className="p-5">
                     <NavItems />

@@ -12,7 +12,7 @@ const Contact = () => {
 
     const [form, setForm] = useState({ name: '', email: '', message: '' });
 
-    // ✅ IMPORTANT: these must match your .env keys EXACTLY
+
     const SERVICE_ID = import.meta.env.VITE_APP_EMAILJS_SERVICE_ID;
     const TEMPLATE_ID = import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID;
     const PUBLIC_KEY = import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY;
@@ -47,7 +47,7 @@ const Contact = () => {
                     message: form.message,
                     to_name: 'Vivan Desai',
                 },
-                PUBLIC_KEY // ✅ simplest working signature for @emailjs/browser
+                PUBLIC_KEY //
             );
 
             showAlert({ show: true, text: 'Thank you for your message!', type: 'success' });

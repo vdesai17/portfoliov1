@@ -5,7 +5,7 @@ import { SkeletonUtils } from "three-stdlib";
 const Developer = ({ animationName = "idle", ...props }) => {
     const group = useRef();
 
-    // CHANGE THIS to your new character file if needed
+
     const { scene } = useGLTF("/models/animations/playermodel.glb");
 
     // Clone so multiple instances don't share a skeleton
