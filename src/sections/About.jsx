@@ -25,7 +25,7 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">Hi, I’m Vivan Desai</p>
                             <p className="grid-subtext">
-                                Currently, in my 2nd year specializing in Computer Science at the University of Toronto.
+                                I am in my 2nd year specializing in Computer Science at the University of Toronto.
                                 My interests align closely at the intersection of finance and computer science, with experience in both.
                             </p>
                         </div>
